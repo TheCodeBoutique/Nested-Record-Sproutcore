@@ -12,10 +12,11 @@ Event.Proxy = SC.Object.create({
                     for(var i=0; i<data.length; i++) {
                          array_name = 'data[i].registration';
 												console.log(array_name);
-                         //eval(array_name).guid = eval(array_name).id;
+                         eval(array_name).guid = eval(array_name).id;
                          result.push(eval(array_name));
                     }  
                }
+							
                return result;
           } 
      }) ;

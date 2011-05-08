@@ -34,12 +34,18 @@ Events.EventsDatasource = SC.DataSource.extend(
 
 
 		  didFetchQuery: function(response, store, query) {
-			var storeKeys = store.loadRecords(Events.Registrations,
-			     Event.Proxy.convertData(response.get('body')));
+			var data;
+			var storeKeys = store.loadRecords(Events.Registrations,Event.Proxy.convertData(response.get('body')));
+					
 		  	if(SC.ok(response)) {
-
+						data = response.get('body');
+						console.log(data);
+						Events.rootController.set('content',data);
+						var m = Events.rootController.get('content');
+						console.log(m);
 		      store.loadRecords(query.primaryKey, response.get('body'));////////we might need to change the primary key in users
 		      store.dataSourceDidFetchQuery(query);
+					
 		    } else store.dataSourceDidErrorQuery(query, response);	
 		  },
 		

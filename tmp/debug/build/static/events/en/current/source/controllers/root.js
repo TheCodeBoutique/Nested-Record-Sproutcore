@@ -10,9 +10,8 @@
 
   @extends SC.Object
 */
-Events.rootController = SC.ObjectController.create(
-/** @scope Events.rootController.prototype */ {
-
+Events.rootController = SC.ArrayController.create( {
+	
   // TODO: Add your own code here.
 
 }) ;

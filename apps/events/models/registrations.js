@@ -13,7 +13,7 @@
 */
 Events.Registrations = SC.Record.extend( {
 
-	//primaryKey: 'id',
+	primaryKey: 'id',
 	
 	createdAt: SC.Record.attr(String, { key: 'created_at' }),
 	email:SC.Record.attr(String, { key: 'email' }),
