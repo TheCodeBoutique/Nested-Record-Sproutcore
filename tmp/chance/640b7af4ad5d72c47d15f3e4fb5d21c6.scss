@@ -1,0 +1,84 @@
+
+$theme: '.ace';
+$theme: '.ace.sc-regular-size.popup';
+
+  #{$theme}.button {
+    .left {
+@extend .__s72_276;
+background-position: _slice_offset_x("source/resources/button/popup/normal_select_0_0_5__0_", 0) _slice_offset_y("source/resources/button/popup/normal_select_0_0_5__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 5px; 
+}
+.middle {
+@extend .__s72_277;
+background-position: _slice_offset_x("source/resources/button/popup/normal_select_5_0_1__0_", 0) _slice_offset_y("source/resources/button/popup/normal_select_5_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 5px; 
+top: 0px; 
+right: 25px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s72_278;
+background-position: _slice_offset_x("source/resources/button/popup/normal_select__0_25__0_0", 0) _slice_offset_y("source/resources/button/popup/normal_select__0_25__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 25px; 
+}
+;
+    
+    .sc-button-label {
+      position: absolute;
+      left: 7px;
+      text-align: left;
+      right: 25px;
+      vertical-align: top;
+      color: #333;
+    }
+    
+    &.sel, &.sel.active, &.active {
+      .left {
+@extend .__s72_279;
+background-position: _slice_offset_x("source/resources/button/popup/active_select_0_0_5__0_", 0) _slice_offset_y("source/resources/button/popup/active_select_0_0_5__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 5px; 
+}
+.middle {
+@extend .__s72_280;
+background-position: _slice_offset_x("source/resources/button/popup/active_select_5_0_1__0_", 0) _slice_offset_y("source/resources/button/popup/active_select_5_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 5px; 
+top: 0px; 
+right: 25px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s72_281;
+background-position: _slice_offset_x("source/resources/button/popup/active_select__0_25__0_0", 0) _slice_offset_y("source/resources/button/popup/active_select__0_25__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 25px; 
+}
+;
+      
+      text-shadow: 0px 1px 1px rgba(255, 255, 255, .6);
+    }
+  }
+$theme: '.ace';
+

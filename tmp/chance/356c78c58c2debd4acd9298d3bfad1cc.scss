@@ -1,0 +1,88 @@
+
+$theme: '.ace';#{$theme}.progress {
+  border: 0px none;
+  .track {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    .left {
+@extend .__s44_107;
+background-position: _slice_offset_x("source/resources/progress/ace/progress_view_track_0_0_1__0_", 0) _slice_offset_y("source/resources/progress/ace/progress_view_track_0_0_1__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 1px; 
+}
+.middle {
+@extend .__s44_108;
+background-position: _slice_offset_x("source/resources/progress/ace/progress_view_track_1_0_1__0_", 0) _slice_offset_y("source/resources/progress/ace/progress_view_track_1_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 1px; 
+top: 0px; 
+right: 1px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s44_109;
+background-position: _slice_offset_x("source/resources/progress/ace/progress_view_track__0_1__0_0", 0) _slice_offset_y("source/resources/progress/ace/progress_view_track__0_1__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 1px; 
+}
+;
+  }
+  
+  .content {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    /* width set in rendering */
+    
+    .left {
+@extend .__s44_110;
+background-position: _slice_offset_x("source/resources/progress/ace/progress_view_content_0_0_1__0_", 0) _slice_offset_y("source/resources/progress/ace/progress_view_content_0_0_1__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 1px; 
+}
+.middle {
+@extend .__s44_111;
+background-position: _slice_offset_x("source/resources/progress/ace/progress_view_content_1_0_1__0_", 0) _slice_offset_y("source/resources/progress/ace/progress_view_content_1_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 1px; 
+top: 0px; 
+right: 1px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s44_112;
+background-position: _slice_offset_x("source/resources/progress/ace/progress_view_content__0_1__0_0", 0) _slice_offset_y("source/resources/progress/ace/progress_view_content__0_1__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 1px; 
+}
+;
+  }
+  
+  &.disabled {
+    opacity: .5;
+  }
+}

@@ -1,0 +1,386 @@
+
+$theme: '.ace';
+$theme: '.ace.dark.sc-regular-size';
+
+
+  #{$theme}.button {
+
+    .sc-button-label {
+      height: 24px;
+      padding-top:2px;
+    }
+
+    .left {
+@extend .__s42_78;
+background-position: _slice_offset_x("source/resources/button/dark/24px/normal_button_0_0_3__0_", 0) _slice_offset_y("source/resources/button/dark/24px/normal_button_0_0_3__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+.middle {
+@extend .__s42_79;
+background-position: _slice_offset_x("source/resources/button/dark/24px/normal_button_3_0_1__0_", 0) _slice_offset_y("source/resources/button/dark/24px/normal_button_3_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 3px; 
+top: 0px; 
+right: 3px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s42_80;
+background-position: _slice_offset_x("source/resources/button/dark/24px/normal_button__0_3__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/normal_button__0_3__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+;
+
+    &.active {
+      .left {
+@extend .__s42_81;
+background-position: _slice_offset_x("source/resources/button/dark/24px/active_button_0_0_3__0_", 0) _slice_offset_y("source/resources/button/dark/24px/active_button_0_0_3__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+.middle {
+@extend .__s42_82;
+background-position: _slice_offset_x("source/resources/button/dark/24px/active_button_3_0_1__0_", 0) _slice_offset_y("source/resources/button/dark/24px/active_button_3_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 3px; 
+top: 0px; 
+right: 3px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s42_83;
+background-position: _slice_offset_x("source/resources/button/dark/24px/active_button__0_3__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/active_button__0_3__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+;
+    }
+
+    &.sel, &.def {
+      .left {
+@extend .__s42_84;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_button_0_0_3__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_button_0_0_3__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+.middle {
+@extend .__s42_85;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_button_3_0_1__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_button_3_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 3px; 
+top: 0px; 
+right: 3px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s42_86;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_button__0_3__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/selected_button__0_3__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+;
+    }
+
+    &.sel.active, &.def.active {
+      .left {
+@extend .__s42_87;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_active_button_0_0_3__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_active_button_0_0_3__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+.middle {
+@extend .__s42_88;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_active_button_3_0_1__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_active_button_3_0_1__0_", 0);background-repeat: repeat-x;
+position: absolute;
+background-repeat: repeat-x; 
+left: 3px; 
+top: 0px; 
+right: 3px; 
+bottom: 0px; 
+}
+.right {
+@extend .__s42_89;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_active_button__0_3__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/selected_active_button__0_3__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 3px; 
+}
+;
+    }
+  }
+
+  
+$theme: '.ace.dark.sc-regular-size.point-left';
+
+    #{$theme}.button {
+      .left {
+@extend .__s42_90;
+background-position: _slice_offset_x("source/resources/button/dark/24px/normal_button_pointer_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/normal_button_pointer_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+
+      .middle { left: 12px; }
+
+      &.active {
+        .left {
+@extend .__s42_91;
+background-position: _slice_offset_x("source/resources/button/dark/24px/active_button_pointer_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/active_button_pointer_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { left: 12px; }
+      }
+
+      &.sel, &.def {
+        .left {
+@extend .__s42_92;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_button_pointer_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_button_pointer_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { left: 12px; }
+      }
+
+      &.sel.active, &.def.active {
+        .left {
+@extend .__s42_93;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_active_button_pointer_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_active_button_pointer_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { left: 12px; }
+      }
+    }
+  $theme: '.ace.dark.sc-regular-size';
+
+
+  
+$theme: '.ace.dark.sc-regular-size.point-right';
+
+    #{$theme}.button {
+      .right {
+@extend .__s42_94;
+background-position: _slice_offset_x("source/resources/button/dark/24px/normal_button_pointer__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/normal_button_pointer__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+
+      .middle { right: 12px; }
+
+      &.active {
+        .right {
+@extend .__s42_95;
+background-position: _slice_offset_x("source/resources/button/dark/24px/active_button_pointer__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/active_button_pointer__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { right: 12px; }
+      }
+
+      &.sel, &.def {
+        .right {
+@extend .__s42_96;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_button_pointer__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/selected_button_pointer__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { right: 12px; }
+      }
+
+      &.sel.active, &.def.active {
+        .right {
+@extend .__s42_97;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_active_button_pointer__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/selected_active_button_pointer__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { right: 12px; }
+      }
+    }
+  $theme: '.ace.dark.sc-regular-size';
+
+
+  
+$theme: '.ace.dark.sc-regular-size.capsule';
+
+    #{$theme}.button {
+      .left {
+@extend .__s42_98;
+background-position: _slice_offset_x("source/resources/button/dark/24px/normal_button_capsule_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/normal_button_capsule_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+.right {
+@extend .__s42_99;
+background-position: _slice_offset_x("source/resources/button/dark/24px/normal_button_capsule__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/normal_button_capsule__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+
+      .middle { left: 12px; right: 12px; }
+
+      &.active {
+        .left {
+@extend .__s42_100;
+background-position: _slice_offset_x("source/resources/button/dark/24px/active_button_capsule_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/active_button_capsule_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+.right {
+@extend .__s42_101;
+background-position: _slice_offset_x("source/resources/button/dark/24px/active_button_capsule__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/active_button_capsule__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { left: 12px; right: 12px; }
+      }
+
+      &.sel, &.def {
+        .left {
+@extend .__s42_102;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_button_capsule_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_button_capsule_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+.right {
+@extend .__s42_103;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_button_capsule__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/selected_button_capsule__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { left: 12px; right: 12px; }
+      }
+
+      &.sel.active, &.def.active {
+        .left {
+@extend .__s42_104;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_active_button_capsule_0_0_12__0_", 0) _slice_offset_y("source/resources/button/dark/24px/selected_active_button_capsule_0_0_12__0_", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+left: 0px; 
+top: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+.right {
+@extend .__s42_105;
+background-position: _slice_offset_x("source/resources/button/dark/24px/selected_active_button_capsule__0_12__0_0", 0) _slice_offset_y("source/resources/button/dark/24px/selected_active_button_capsule__0_12__0_0", 0);background-repeat: no-repeat;
+position: absolute;
+background-repeat: no-repeat; 
+top: 0px; 
+right: 0px; 
+bottom: 0px; 
+width: 12px; 
+}
+;
+        .middle { left: 12px; right: 12px; }
+      }
+    }
+  $theme: '.ace.dark.sc-regular-size';
+
+$theme: '.ace';
+
